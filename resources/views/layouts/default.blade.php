@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
 	<title>{{ $title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
     {!! Asset::styles() !!}
 </head>
 <body>
@@ -22,6 +23,8 @@
 
     </div>
 
+    <script type="text/javascript" type="text/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script type="text/javascript" type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     {!! Asset::scripts() !!}
 </body>
 </html>
